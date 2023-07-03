@@ -1,0 +1,46 @@
+.btn-bg-danger {
+    background-color: white;
+    width: 150px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+   border-radius: 5px;
+   font-size: larger;
+  }
+  .btn-bold {
+    font-weight:bolder;
+   
+  }
+  .card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card-text-amout{
+    color: aqua;
+  }
+  .card-text-total{
+    color: red;
+  }
+  .smaller-text {
+    font-size: 14px; /* Adjust the value as needed */
+  }
+  
+   .custom-primary{
+     background-color :blue;
+     color: white;
+     border: none;
+     margin-bottom: 10px;
+  }
+  .card-img{
+    height: 155px;
+    width: 220px;
+  }
+  .container{
+    margin-top: -15px;
+  }
+  
+   

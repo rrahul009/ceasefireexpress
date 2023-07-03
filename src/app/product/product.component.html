@@ -1,0 +1,66 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12 col-sm-6 col-md-8 col-lg-12">
+      <div class="input-group">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">Select category</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+        <input type="text" class="form-control" placeholder="Select the product, content, etc ..."
+          aria-label="Text input with dropdown button">
+        <button class="btn btn-danger">Search</button>
+        <div
+          class="col-12 col-sm-6 col-md-4 col-lg-4 d-flex align-items-center justify-content-end justify-space-between">
+          <div class="clickable " style="  font-weight: 500;" (click)="trackOrderClicked()">
+            <i class="fas fa-truck " style="color: green;font-size:22px; margin-top:10px; "></i> Track your order
+          </div>
+          <div class="vertical-divider"></div>
+          <div class="clickable" style="color: red;" (click)="numberClicked()">
+            <i class="fas fa-shopping-cart" style="color: black; font-size:22px;margin-top:10px;"></i>
+            &#8377; 54545
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+<div class="container mt-3">
+  <div class="row row-button text-center">
+    <div class="col-12 col-sm-6 col-md-3">
+      <button type="button" class="btn btn-primary target-class btn-block">I am clear what I need</button>
+    </div>
+    <div class="col-12 col-sm-6 col-md-3">
+      <button type="button" class="btn btn-primary target-class btn-block">I need to protect risk area</button>
+    </div>
+    <div class="col-12 col-sm-6 col-md-3">
+      <button type="button" class="btn btn-primary target-class btn-block">I need to protect my premises</button>
+    </div>
+    <div class="col-12 col-sm-6 col-md-3">
+      <button type="button" class="btn btn-primary target-class btn-block">I need fire audit of my premises</button>
+    </div>
+  </div>
+
+
+</div>
+
+<div>
+
+  <hr class=" container my-4">
+
+</div>
+<app-card></app-card>

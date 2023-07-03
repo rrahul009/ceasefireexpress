@@ -1,0 +1,22 @@
+  
+ .row-button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+ }
+ .target-class{
+   width: 250px;
+   padding: 10px;
+   margin-top: 5px;
+   
+ }
+ .vertical-divider {
+  border-left: 2px solid #ccc;
+  height: 1.1rem;
+  margin: 0 0.5rem;
+}
+.clickable{
+  cursor: pointer;
+}
+

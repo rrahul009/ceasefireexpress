@@ -1,0 +1,18 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-product',
+  templateUrl: './product.component.html',
+  styleUrls: ['./product.component.css']
+})
+export class ProductComponent {
+  trackOrderClicked(){
+    alert("track your order")
+  }
+  numberClicked(){
+    alert("pay the bill")
+  }
+  
+
+}
+ 
