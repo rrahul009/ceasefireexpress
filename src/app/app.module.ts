@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductComponent } from './product/product.component';
 import { CardComponent } from './card/card.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ProductdetailComponent } from './productdetail/productdetail.component';
  
 
 @NgModule({
@@ -12,11 +14,13 @@ import { CardComponent } from './card/card.component';
     AppComponent,
     ProductComponent,
     CardComponent,
+    ProductdetailComponent,
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

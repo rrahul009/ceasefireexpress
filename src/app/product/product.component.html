@@ -1,6 +1,10 @@
-<div class="container mt-5">
+<div class="container-fluid mt-3">
   <div class="row">
-    <div class="col-12 col-sm-6 col-md-8 col-lg-12">
+    <div class="col-3">
+      <!-- <h2>side baar</h2> -->
+
+    </div>
+    <div class="col-9">
       <div class="input-group">
         <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
           aria-expanded="false">Select category</button>
@@ -16,51 +20,49 @@
         <input type="text" class="form-control" placeholder="Select the product, content, etc ..."
           aria-label="Text input with dropdown button">
         <button class="btn btn-danger">Search</button>
-        <div
-          class="col-12 col-sm-6 col-md-4 col-lg-4 d-flex align-items-center justify-content-end justify-space-between">
-          <div class="clickable " style="  font-weight: 500;" (click)="trackOrderClicked()">
-            <i class="fas fa-truck " style="color: green;font-size:22px; margin-top:10px; "></i> Track your order
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 d-flex align-items-center justify-content-end justify-space-between">
+          <div class="clickable" (click)="trackOrderClicked()">
+            <i class="fas fa-truck" style="color: green; font-size: 15px; margin-top: 10px;"></i> Track your order
           </div>
           <div class="vertical-divider"></div>
           <div class="clickable" style="color: red;" (click)="numberClicked()">
-            <i class="fas fa-shopping-cart" style="color: black; font-size:22px;margin-top:10px;"></i>
+            <i class="fas fa-shopping-cart" style="color: black; font-size: 22px; margin-top: 10px;"></i>
             &#8377; 54545
           </div>
-
         </div>
-
-
-
-
       </div>
+      
+      <!-- for button what i need i am clear -->
+      <div class="col-12 mt-4">
+        <div class="row d-flex align-items-center justify-content-center justify-content-lg-center justify-content-md-center">
+          <div class="col-lg-3 col-md-6 mb-3">
+            <button type="button" class="btn clear-button target-class btn-block">I am clear what I need</button>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3">
+            <button type="button" class="btn clear-button target-class btn-block">I need to protect risk area</button>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3">
+            <button type="button" class="btn clear-button target-class btn-block">I need to protect my premises</button>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-3">
+            <button type="button" class="btn clear-button target-class btn-block">I need fire audit of my premises</button>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
 
     </div>
-
   </div>
-
-</div>
-<div class="container mt-3">
-  <div class="row row-button text-center">
-    <div class="col-12 col-sm-6 col-md-3">
-      <button type="button" class="btn btn-primary target-class btn-block">I am clear what I need</button>
-    </div>
-    <div class="col-12 col-sm-6 col-md-3">
-      <button type="button" class="btn btn-primary target-class btn-block">I need to protect risk area</button>
-    </div>
-    <div class="col-12 col-sm-6 col-md-3">
-      <button type="button" class="btn btn-primary target-class btn-block">I need to protect my premises</button>
-    </div>
-    <div class="col-12 col-sm-6 col-md-3">
-      <button type="button" class="btn btn-primary target-class btn-block">I need fire audit of my premises</button>
-    </div>
-  </div>
-
-
 </div>
 
-<div>
-
-  <hr class=" container my-4">
-
-</div>
 <app-card></app-card>

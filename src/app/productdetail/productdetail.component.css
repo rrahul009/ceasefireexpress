@@ -1,0 +1,178 @@
+  /* product detail page */
+  .carousel-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #999;
+
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #333;
+  }
+  .carousel-item img {
+    height: 300px; /* Adjust the height value as per your requirement */
+  }
+  .nav-pills .nav-link.active {
+    border-bottom: 2px solid black; /* Change the color as desired */
+  }
+  body {
+    /* background-color: #bcd9f5; */
+  }
+  
+  /* nav */
+  .card {
+    max-width:25rem;
+    padding: 0;
+    border: none;
+    /* border-radius: 0.5rem; */
+    box-shadow: none; /* Remove the box shadow */
+  }
+  
+  a.active {
+    border-bottom: 2px solid #55c57a;
+  }
+  
+  .nav-link {
+    color: rgb(110, 110, 110);
+    font-weight: 500;
+  }
+  .nav-link:hover {
+    color: #55c57a;
+  }
+  
+  .nav-pills .nav-link.active {
+    color: black;
+    background-color: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+    font-weight: 600;
+  }
+  
+  .tab-content {
+    padding-bottom: 1.3rem;
+  }
+  
+  .form-control {
+    background-color: rgb(241, 243, 247);
+    border: none;
+  }
+  
+  /* 3rd card */
+  span {
+    /* margin-left: 0.5rem;
+    padding: 1px 10px;
+    color: white;
+    background-color: rgb(143, 143, 143);
+    border-radius: 4px;
+    font-weight: 600; */
+  }
+  
+  .third {
+    padding: 0 1.5rem 0 1.5rem;
+  }
+  
+  label {
+    font-weight: 500;
+    color: rgb(104, 104, 104);
+  }
+  
+  .btn-success {
+    float: right;
+  }
+  
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: "";
+  }
+  
+  /* 1st card */
+  
+  ul {
+    list-style: none;
+    margin-top: 1rem;
+    padding-inline-start: 0;
+  }
+  
+  .search {
+    padding: 0 1rem 0 1rem;
+  }
+  
+  .ccontent li .wrapp {
+    padding: 0.3rem 1rem 0.001rem 1rem;
+  }
+  
+  .ccontent li .wrapp div {
+    font-weight: 600;
+  }
+  
+  .ccontent li .wrapp p {
+    font-weight: 360;
+  } 
+  
+  .ccontent li:hover {
+    background-color: rgb(117, 93, 255);
+    color: white;
+  }
+  
+  /* 2nd card */
+  
+  .addinfo {
+    padding: 0 1rem;
+  }
+  
+  /* product detail with megnify */
+  .container {
+    width: 100%;
+  }
+  .wrapper {
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+  }
+  .all-image {
+    height: 80vh;
+    display: flex;
+    /* flex-direction: column; */
+  }
+  .small-images {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: black;
+    height: 420px;
+  }
+  .small-images img {
+    height: 11vh;
+    margin-bottom: 10px;
+    cursor: pointer;
+    /* background-color: greenyellow; */
+  }
+  .small-images img:hover {
+    opacity: 1;
+  }
+  .all-images img {
+    height: 25vh;
+  }
+  
+  
+  

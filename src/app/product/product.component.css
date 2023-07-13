@@ -19,4 +19,10 @@
 .clickable{
   cursor: pointer;
 }
+.clear-button{
+  background-color: #f1f1f9 ;
+}
+.last-button {
+  margin-right: 0px;
+}
 
